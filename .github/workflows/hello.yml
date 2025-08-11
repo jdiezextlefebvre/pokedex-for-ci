@@ -1,4 +1,4 @@
-name: Say hello
+name: Say hello JAVI
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  hello_world:
+  hello_javi:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
