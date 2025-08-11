@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
-        run: |
-          echo "Hola javi!"
+        run: echo "Hola javi!"
       - name: Dime la fecha
-        run: echo date
-      - run: echo ls -l
+        run: date
+      - name: Lista archivos
+        run: ls -l
